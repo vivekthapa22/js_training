@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+<form id="form" action="/" method="GET">
+    <h1>Registration</h1>
+    <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="User name" type="text" required>
+        <p></p>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" placeholder="password" type="password">
+    </div> <br>
+    
+    <div>
+        <label for="password">Confirm Password</label>
+        <input id="password2" name="Confirm password" placeholder="Confirm password" type="password">
+    </div> <br>
+    
+    
+
+    <button type="submit" onclick="checkpassword()">Submit</button>
+</form>
+</body>
+</html>
